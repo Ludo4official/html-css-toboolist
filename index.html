@@ -7,36 +7,68 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Toboolist</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap">
+       
       
     </head>
         <body>
 
-        <header>
+            <header>
         <!-- Logo -->
 
-        <img id="main-logo" src="logo copia.png" alt="">
-        <span id="main-title">Toboolist</span>
+            <img id="main-logo" src="logo copia.png" alt="">
+            <span id="main-title">Toboolist</span>
 
-        </header>
+            </header>
 
-        <main>
+            <main>
+                <!--lista cose da fare -->
 
-            <section>
+                <div id="container">
 
-            </section>
+                    <section>
+                        <input class="style-button" type="button" value="Add Task">
+                        <input class="style-button2" type="button" value="Add Section">
+                        
+                        <hr id="divider">
 
-            <section>
+                    </section>
+                        
+                        <span>&#9660;</span><div class="menu">New Task</div>
+                        
+                        <ul class="no-mark">
+                            <li><span class="check">&#10003;</span>Quarterly Newsletter <span class="side-text" id="blue">Editorial</span></li>
+                        </ul>
+                        
+                    <section>
+                        
+                        <span>&#9660;</span><div class="menu">Today</div>
 
-            </section>
+                        <ul class="no-mark">
+                            <li><span class="check">&#10003;</span>Recruiting blog post<span class="side-text" id="blue">Editorial</span></li>
+                            <li><span class="check">&#10003;</span>Mobile app launch<span class="side-text" id="purple">Q1 Goals</span></li>
+                            <li><span class="cross">&#10007;</span>Interview John H.<span class="side-text" id="green">Recruiting</span></li>
+                            <li><span class="check">&#10003;</span>Summit update to mobile storefronts<span class="side-text" id="orange">Mobile</span></li>
+                        </ul>
 
-            <section>
+                    </section>
 
-            </section>
 
-        </main>
+                    <section>
+                        
+                        <span>&#9660;</span><div class="menu">Upcoming</div>
+                    
+                        <ul class="no-mark">
+                            <li><span class="cross">&#10007;</span>Schedule meeting with Alex</li>
+                            <li><span class="check">&#10003;</span>Homepage refresh<span class="side-text" id="pink">Website</span></li>
+                            <li><span class="check">&#10003;</span>Onboard new Sales team members<span class="side-text" id="lightgreen">Sales</span></li>
+                            <li><span class="check">&#10003;</span>Review editorial calendar<span class="side-text" id="blue">Editorial</span></li>
+                        </ul>
+                        
+                    </section>
+                </div>
+
+            </main>
         
     </body>
 </html>
